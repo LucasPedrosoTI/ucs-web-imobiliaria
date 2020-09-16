@@ -1,0 +1,48 @@
+main {
+  padding: 0 5%;
+}
+
+main h1 {
+  text-align: center;
+  margin: 3% 0;
+}
+
+.card {
+  max-height: 50vh;
+  display: flex;
+  background-color: #e5e5e5;
+  border-radius: 15px;
+  margin: 3% 0;
+}
+
+.card_img {
+  display: flex;
+}
+
+.card_img img {
+  height: 90%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.card_body {
+  width: 100%;
+}
+
+.card_info .card_title {
+  color: #003049;
+  font-size: 1.5rem;
+}
+
+.info_icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.info_icon {
+  font-size: 1.5rem;
+  color: #003049;
+}

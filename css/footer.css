@@ -1,0 +1,22 @@
+footer {
+  background-color: #eae2b7;
+  color: #000;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+footer ul {
+  margin: 0;
+  display: flex;
+  padding: 0 20%;
+}
+
+footer li {
+  margin: auto;
+  padding: 30px;
+}
+
+footer a {
+  font-size: 30px;
+}
